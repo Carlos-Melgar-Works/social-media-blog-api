@@ -14,7 +14,7 @@ public class AccountService
     }
 
     // Register user
-    public Account registerAccount(Account account)
+    public Account register(Account account)
     {
         if (account.getUsername() == null || account.getUsername().isBlank())
         {
